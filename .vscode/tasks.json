@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ComicCraft: Start development",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "ComicCraft: Test",
+      "type": "npm",
+      "script": "test",
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "ComicCraft: Build and test",
+      "type": "npm",
+      "script": "check",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}
